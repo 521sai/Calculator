@@ -1,0 +1,31 @@
+.app-container {
+  width: 200px;
+  height: 200px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+}
+
+button {
+  height: 50px;
+  background-color: #feba4f;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+}
+button.oper {
+  background-color: lightgrey;
+}
+.display {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-top: 5px;
+  text-align: right;
+  color: #ff5f1f;
+  background-color: #ffffc2;
+}
